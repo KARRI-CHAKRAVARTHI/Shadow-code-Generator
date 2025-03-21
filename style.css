@@ -1,0 +1,50 @@
+body{
+    background-color: #2288ff;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+*{
+    justify-content: center;
+}
+.container{
+    background-color: #34495e;
+    box-shadow: 0px 20px 40px rgba(0,0, 0, 0.2);
+    padding: 40px; 
+}
+.element{
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+.result{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sliders, .color{
+    display: flex;
+    flex-direction: column;
+}
+input[type="range"]{
+    width: 100%;
+}
+.code{
+    display: grid;
+    grid-template-columns: 9fr 1fr;
+    column-gap: 10px;
+    color: black;
+}
+textarea{
+    resize: none;
+}
+.code button{
+    cursor: pointer;
+}
